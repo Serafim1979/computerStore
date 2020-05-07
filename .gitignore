@@ -72,3 +72,16 @@ fabric.properties
 
 vendor
 composer.lock
+.idea/.gitignore
+.idea/computerStore.loc.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/vcs.xml
+app/
+config/
+public/
+tmp/
+!/composer.json
+!/vendor/myStore/
+!/vendor/
