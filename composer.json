@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "myStore\\": "vendor/myStore",
+      "app\\": "app"
+    }
+  },
+  "require": {}
+}
