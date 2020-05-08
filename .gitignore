@@ -85,3 +85,4 @@ tmp/
 !/composer.json
 !/vendor/myStore/
 !/vendor/
+!/public/
