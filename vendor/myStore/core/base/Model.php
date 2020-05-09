@@ -2,7 +2,7 @@
 
 
 namespace myStore\base;
-
+use myStore\Db;
 
 abstract class Model
 {
@@ -11,6 +11,6 @@ abstract class Model
     public $rules = [];
 
     public function __construct(){
-
+        Db::instance();
     }
 }

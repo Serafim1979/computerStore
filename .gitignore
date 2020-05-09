@@ -86,3 +86,6 @@ tmp/
 !/vendor/myStore/
 !/vendor/
 !/public/
+/vendor/gabordemooij/
+gabordemooij
+!/app/views/Main/
