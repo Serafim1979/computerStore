@@ -89,3 +89,11 @@ tmp/
 /vendor/gabordemooij/
 gabordemooij
 !/app/views/Main/
+/public/images/
+/public/images/no_image.jpg
+public/.htaccess
+public/errors/images/
+public/fonts/
+vendor/autoload.php
+vendor/composer/
+/public/images/
