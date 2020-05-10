@@ -8,7 +8,7 @@ define("CORE", ROOT . '/vendor/myStore/core');
 define("LIBS", ROOT . '/vendor/myStore/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", 'default');
+define("LAYOUT", 'hardware');
 
 // http://computerStore.loc/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
