@@ -97,3 +97,12 @@ public/fonts/
 vendor/autoload.php
 vendor/composer/
 /public/images/
+/public/js/bootstrap.min.js
+public/megamenu/.gitattributes
+public/megamenu/README.md
+public/megamenu/css/
+public/megamenu/fonts/
+public/megamenu/index.html
+public/megamenu/js/megamenu.js
+public/megamenu/less/
+public/megamenu/licence.md
