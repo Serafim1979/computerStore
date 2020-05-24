@@ -3,6 +3,8 @@
 
 namespace app\controllers;
 use app\models\Cart;
+use app\models\Order;
+use app\models\User;
 
 class CartController extends AppController
 {
