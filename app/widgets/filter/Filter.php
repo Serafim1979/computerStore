@@ -35,6 +35,10 @@ class Filter
 
     protected function getHtml(){
         ob_start();
+        $filter = self::getFilter();
+        if(!empty($filter)){
+            $filter = explode(',', $filter);
+        }
         require $this->tpl;
         return ob_get_clean();
     }
@@ -50,5 +54,14 @@ class Filter
             $attrs[$v['attr_group_id']][$k] = $v['value'];
         }
         return $attrs;
+    }
+
+    public static function getFilter(){
+        $filter = null;
+        if(!empty($_GET['filter'])){
+            $filter = preg_replace("#[^\d,]+#", '', $_GET['filter']);
+            $filter = trim($filter, ',');
+        }
+        return $filter;
     }
 }
