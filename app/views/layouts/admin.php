@@ -275,7 +275,7 @@
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-left">
-                                    <a href="<?=ADMIN;?>/user/edit?id<?=$_SESSION['user']['id'];?>" class="btn btn-default btn-flat">Profile</a>
+                                    <a href="<?=ADMIN;?>/user/edit?id=<?=$_SESSION['user']['id'];?>" class="btn btn-default btn-flat">Profile</a>
                                 </div>
                                 <div class="pull-right">
                                     <a href="/user/logout" class="btn btn-default btn-flat">Sign out</a>
@@ -625,6 +625,7 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script src="bower_components/ckeditor/ckeditor.js"></script>
 <script src="my.js"></script>
 
 <?php
